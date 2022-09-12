@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main-contannier{
+  display: flex;
+
+  
+}
+.left-contannier{
+  flex: 1;
+  flex-direction: column;
+  background-color: gray;
+  border: 2px solid #bac8ff ;
+  border-radius: 10px;
+}
+.rigth-contannier{
+  flex: 1;
+  background-color: #bac8ff;
+  border: 2px solid gray;
+  border-radius: 10px;
+  
+  padding: 30px;
+  padding-bottom: 100px;
+}
+.inputs{
+ margin: 10px;
+ padding: 10px 10px 10px 10px ;
+ border-radius: 10px;
+ margin-left: 200px;
+ align-items: center;
+ text-align: center;
+}
+.btn{
+  margin-left: 30px;
+  margin-top: 20px;
+  padding:  10px;
+  border-radius: 10px;
+  background-color: #4263eb;
+  color: white;
+ 
+}
+.btn:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.fav{
+margin-top: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+ 
+}
+.title{
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+.span-style{
+  color: white;
+  font-weight: bold;
+}
+.del{
+  margin-left: 80px;
+  margin-right: 20px;
+  color: white;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 9px;
+  padding: 5px;
+}
+.del:hover{
+  cursor: pointer;
+}
+.toggle:hover{
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+.input-title{
+  color: white;
+  text-align: center;
+}
+ul{
+  border: 2px solid #bac8ff;
+  border-radius: 10px;
+  background-color: #bac8ff;
+  padding: 20px;
+  margin: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.complete {
+  text-decoration: line-through;
+  color:black;
 }
