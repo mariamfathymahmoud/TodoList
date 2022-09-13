@@ -19,5 +19,5 @@
   </ul>
   </p>
   <h1> screenshots from the app:</h1>
-  <img src="https://user-images.githubusercontent.com/93473434/189741820-fc381dba-2e75-48d8-b8f0-8ad202f9ca2b.JPG"/>
-  <img src="https://user-images.githubusercontent.com/93473434/189741895-d92f4ece-d49d-4785-80c6-728972752096.JPG"/>
+  <img src="https://user-images.githubusercontent.com/93473434/189894204-1de298cc-c680-4f77-839d-ba13110fc270.JPG"/>
+  <img src="https://user-images.githubusercontent.com/93473434/189894267-5733dd3a-7718-46d5-af16-019e6566a404.JPG"/>
