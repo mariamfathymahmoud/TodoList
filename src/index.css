@@ -90,3 +90,14 @@ ul{
   text-decoration: line-through;
   color:black;
 }
+.fav-style{
+  color: white;
+  text-align: center;
+}
+.fav-data{
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: gray;
+  color: white;
+  padding: 20px;
+}
