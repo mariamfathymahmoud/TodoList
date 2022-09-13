@@ -5,7 +5,7 @@
    <li> Add task</li>
   <li> Delete task</li>
   <li> Toggle or mark up complete if the task done (true)</li>
-   <li> Add to favourite icon </li>
+   <li> Add to favourite  </li>
    </ul>
    <h1>Technologies used: </h1>
   <p>
