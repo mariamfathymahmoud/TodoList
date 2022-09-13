@@ -44,20 +44,30 @@ class Main extends React.Component{
       })
       this.setState(items)
     }
+    //favourite function
+    addfav =(item)=>{
+      item.id= Math.random();
+    let listname=this.state.listname;
+    listname.push(item);
+    this.setState({listname})
+    }
   render(){
     return(
       <div className='main-contannier'>
       <div className='left-contannier'>
      <Activity
      items={this.state.items} 
+   listname={this.state.listname}
      deleteitem ={this.deleteitem}
      completetodo ={this.completetodo }
+   addfav={this.addfav}
      />
       </div>
       <div className='rigth-contannier'>
       <Form 
       additem={this.additem}
         />
+  <Fav />
       </div>
       </div>
     )
@@ -136,6 +146,31 @@ class Form extends React.Component{
     </div>
   )
  }
+ //fav component
+class Fav extends React.Component{
+  state={
+  listname:[
+    {id:"1",name:"Go to Gym"},
+    {id:"2",name:"Study Web"}
+   ]
+  }
+  render(){
+    const data=this.state.listname.map((item)=>{ //loop in list item
+      return(
+        <div key={item.id}>
+          <p className='fav-data'>{item.name}</p>
+          </div>
+      )
+    })
+    return(
+      <div >
+        <h2 className='fav-style'>Favourite taks</h2>
+        <p >{data}</p>
+     
+      </div>
+    )
+  }
+}
 
  
 
